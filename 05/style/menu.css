@@ -62,6 +62,7 @@ button{
 
 .items-img {
     padding: 17px;
+    border-radius: 10px;
 }
 
 .h4-txt {
@@ -83,20 +84,10 @@ button{
     flex-direction: column;
     justify-content: center;
 }
-.burger-css:nth-child(1) img {
-    width: 50px;
+.burger-css img {
+    width: 60px;  
     height: auto;
 }
-
-.burger-css:nth-child(2) img {
-    width: 55px;
-    height: auto;
-}
-
-.burger-css:nth-child(3) img {
-    width: 60px;
-    height: auto;
-}  
 
 .name{
     text-align: left;
