@@ -78,7 +78,11 @@ button{
     padding: 15px;
     gap: 15px; 
 }
-
+.burger-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .burger-css:nth-child(1) img {
     width: 50px;
     height: auto;
