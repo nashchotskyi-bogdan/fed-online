@@ -1,10 +1,11 @@
 *{
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    
 }
 
 body{
     background-color: rgb(192, 188, 188);
+    font-family: Inter, sans-serif;
 }
 
 .container{
@@ -68,6 +69,7 @@ button{
 .h4-txt {
     margin: 5px;
     text-align: center;
+    font-weight: 400;
 }
 
 .burger-css{
