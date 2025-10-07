@@ -8,6 +8,9 @@ body{
     font-family: Inter, sans-serif;
 }
 
+.h1{
+    font-weight: 600;
+}
 .container{
     width: 360px;
     margin: 100px auto;
@@ -102,6 +105,7 @@ button{
     margin-top: auto;
     text-align: left;
     font-size: 14px;
+    font-weight: 500;
 }
 
 .burger-css:hover{
