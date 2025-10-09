@@ -1,0 +1,105 @@
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 40px;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  position: relative;
+  min-height: 500px;
+}
+
+.dila {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 200px;
+  height: 200px;
+  background: black;
+  color: white;
+  font-size: 72px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 1;
+}
+
+.dila span {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.flag {
+  width: 30px;
+  height: 20px;
+  background: linear-gradient(to bottom, #005BBB 50%, #FFD700 50%);
+  border-radius: 3px;
+}
+
+.speechify-square {
+  position: absolute;
+  top: 185px;
+  left: 170px;
+  width: 200px;
+  height: 200px;
+  background: linear-gradient(to bottom, #005BBB 50%, #FFD700 50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 2;
+}
+
+.wave {
+  font-size: 120px;
+  color: white;
+  font-weight: bold;
+}
+
+.speechify-circle {
+  position: absolute;
+  top: 340px;
+  left: 320px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: #FFD700; 
+  display: flex;
+  align-items: flex-start; 
+  justify-content: center;
+  
+  z-index: 2;
+}
+
+.circle-wave {
+  position: relative;
+  width: 100%; 
+}
+
+.circle-wave .blue {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.circle-wave .wave {
+  font-size: 90px;
+  transform: scaleX(1.1);
+}
+.glyph_img{
+width: 161px;
+height: 92px;
+}
+
+.glyph_img_1{
+  position: absolute;
+  width: 154px;
+  height: 90px;
+  left: 22px;
+  top: 100px;
+}
