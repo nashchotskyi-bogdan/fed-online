@@ -20,7 +20,7 @@ body{
   display: flex;
 }
 main{
-  width: 1243px;
+  width: 65%;
   margin: 0 auto;
   padding: 142px 0 124px;
 }
@@ -43,30 +43,33 @@ font-size: 20px;
 line-height: 40px;
 letter-spacing: 0px;
 color: #2B292D;
-width: 695;
+max-width: 695px;
 margin-bottom: 50px;
 }
 .developers-card{
   padding: 58px 0 122px;
-  width: 295px;
+  /* width: 295px; */
+  width: 23%;
+  min-width: 200px;
   background-color: #fff;
   text-align: center;
   float: left;
   margin-right: 20px;
+  margin-bottom: 20px;
   border-radius: 20px;
   overflow: hidden;
 }
 .user-photo{
-  width: 114px;
-  height: 114px;
+  max-width: 114px;
+  max-height: 114px;
   border-radius: 100%;
   overflow: hidden;
   margin: 0 auto;
   border: 3px solid #EFF3F8;
 }
 .user-photo{
-  width: 114px;
-  height: 114px;
+  width: 100%;
+  height: auto;
 }
 .developers-card h4{
 font-weight: 700;
@@ -97,4 +100,7 @@ margin-top: auto;
 }
 .developers-container .developers-card:last-child{
   margin-right: 0;
+}
+.skill-item>img{
+  width: 100%;
 }

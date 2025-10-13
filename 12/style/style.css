@@ -1,0 +1,11 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 65%;
+    /* max-width: 1243px; */
+    min-width: 400px;
+    padding: 100px;
+    background-color: yellow;
+    margin: 0 auto;
+}
