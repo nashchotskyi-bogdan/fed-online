@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 16px;
+  margin: 0;
+  background-color: #F2F2F2;
+}
+.clearfix::after
+
+.team-section {
+  max-width: 1100px;     
+  margin: 0 auto;
+  text-align: center;    
+  padding: 50px 20px;
+}
+.developers-container{
+  display: flex;
+}
+main{
+  width: 65%;
+  margin: 0 auto;
+  padding: 142px 0 124px;
+}
+h1>strong{
+  color: #2D3640;
+  font-weight: 600;
+  letter-spacing: -0.5px;
+}
+h1{
+  color: #2D3640;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 80px;
+  letter-spacing: -0.5px;
+  font-style: normal;
+}
+.sub-title-text{
+font-weight: 400;
+font-size: 20px;
+line-height: 40px;
+letter-spacing: 0px;
+color: #2B292D;
+max-width: 695px;
+margin-bottom: 50px;
+}
+.developers-card{
+  padding: 58px 0 122px;
+  /* width: 295px; */
+  width: 23%;
+  min-width: 200px;
+  background-color: #fff;
+  text-align: center;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.user-photo{
+  max-width: 114px;
+  max-height: 114px;
+  border-radius: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+  border: 3px solid #EFF3F8;
+}
+.user-photo{
+  width: 100%;
+  height: auto;
+}
+.developers-card h4{
+font-weight: 700;
+font-size: 20px;
+font-style: normal;
+line-height: normal;
+letter-spacing: -0.63px;
+text-align: center;
+margin: 34px 0 4px;
+color: #2D3640;
+}
+.developer-position{
+font-weight: 400;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0px;
+font-style: normal;
+color: #4B4F52;
+margin-bottom: 33px;
+margin-top: auto;
+}
+.skills{
+  text-align: center;
+  font-size: 0;
+}
+.skill-item{
+  margin-right: 15px;
+}
+.developers-container .developers-card:last-child{
+  margin-right: 0;
+}
+.skill-item>img{
+  width: 100%;
+}
