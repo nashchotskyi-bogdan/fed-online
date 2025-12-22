@@ -302,3 +302,21 @@ header .container{
     background-color: #D40D1F;
     border: none;
 }
+@media (max-width:1200px){
+    .plus_two{
+        width: 90%;
+    }
+    .films-block{
+        flex-wrap: wrap;
+    }
+    .popular{
+        justify-content: flex-start;
+        gap: 20px;
+    }
+    .p-text{
+        width: 80%;
+    }
+    .info{
+        flex-wrap: wrap;
+    }
+}
