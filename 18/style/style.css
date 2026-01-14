@@ -1,0 +1,301 @@
+*{
+    box-sizing: border-box;
+}
+body {
+  font-family: 'Avenir', sans-serif;
+  color: #7a7a7a;
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 1.5rem;
+  overflow-x: hidden; 
+}
+.container {
+  max-width: 90rem;
+  margin: 0 auto;
+  padding: 0 7.5rem;
+  position: relative;
+}
+a {
+  color: #776677;
+  text-decoration: none;
+}
+
+input {
+  background: none;
+  border: none;
+}
+
+header {
+    width: 100%;
+    margin-top: 41px;
+    padding: 0px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 45px;
+}
+
+.travelers {
+  font-family: 'Open Sans', serif;
+  font-size: 1.13rem;
+  font-weight: 700;
+  line-height: 1.56rem;
+  letter-spacing: 0%;
+  text-align: left;
+  color: rgba(188, 67, 106, 1);
+}
+
+.list {
+  display: flex;
+  align-items: center;
+}
+
+.user_menu {
+  margin-right: 2.5rem;
+  padding: 0.5rem;
+  font-size: 1rem;
+  line-height: 1.4rem;
+}
+
+.user_menu:nth-child(1) a {
+  color: #bc436a;
+}
+
+.user_menu:last-child {
+  margin-right: 0;
+  width: 6.4rem;
+  height: 2.4rem;
+  border-radius: 0.25rem;
+  background-color: #386e41;
+}
+.list>li{
+    margin-right: 45px;
+}
+.list>li:hover{
+    color: rgba(188, 67, 106, 1);
+    font-weight: 700;
+}
+.user_menu:last-child a {
+  color: #ffffff;
+}
+.user_menu_1 {
+  width: 6.38rem;
+  height: 2.38rem;
+  background-color: #386E41;
+  border-radius: 4px;
+  color: #ffffff;
+  font-family: Inter;
+  font-size: 0.9rem;
+  line-height: 1.19rem;
+  letter-spacing: 0%;
+  text-align: center;
+  padding: 8px;
+}
+
+.square {
+  position: fixed;
+  top: 50%;
+  left: -60px;
+  width: 7.5rem;
+  height: 7.5rem;
+  border: 0.63rem solid #386e41;
+}
+
+.main_content {
+  max-width: 50%;
+  padding: 9.37rem 4.81rem 2rem 0;
+}
+
+.main_content h1 {
+  margin-bottom: 1.44rem;
+  color: #333333;
+  font-size: 2.3rem;
+  font-weight: 800;
+  line-height: 3rem;
+  margin-left: 120px;
+
+}
+
+.main_content h1 strong {
+  color: #bc436a;
+}
+
+.img {
+  width: 50.75rem;
+  height: 50.75rem;
+  border-radius: 50%;
+  background-image: url(../assets/person.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  right: -3.75rem;
+  z-index: -1;
+}
+.main_content p{
+  margin-left: 120px;
+  font-size: 18px;
+}
+.p2 {
+  padding-top: 14.3rem;
+  color: #767676;
+}
+
+.p2 i {
+  margin-left: 1.5rem;
+  color: #767676;
+  cursor: pointer;
+}
+
+form {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 75rem;
+  height: 6.3rem;
+  margin-top: 2rem;
+  border-radius: 0.5rem;
+  background-color: #386e41;
+}
+.form{
+  position: relative;
+  margin-left: 120px;
+}
+
+input {
+  width: 16rem;
+  padding: 0.25rem 0 0.75rem;
+  border-bottom: 0.06rem solid rgb(255, 255, 255);
+  color: #ffffff;
+}
+
+input::placeholder {
+  color: #ffffff;
+}
+
+form i {
+  color: #ffffff;
+  margin-left: -1.75rem;
+  cursor: pointer;
+  margin-left: -16px;
+}
+
+.search_place {
+  max-width: 9rem;
+  height: 2.6rem;
+  padding: 0.5rem 1.3rem;
+  border: none;
+  border-radius: 0.25rem;
+  color: #ffffff;
+  background-color: #bc436a;
+}
+
+.search_place:hover {
+  cursor: pointer;
+  background-color: #a23659;
+}
+
+footer {
+  margin-top: 4.5rem;
+  text-align: center;
+}
+
+footer h4,
+footer i {
+  color: #767676;
+  cursor: pointer;
+}
+
+footer i {
+  margin-top: 0.9rem;
+  margin-bottom: 3.4rem;
+}
+footer h4{
+  margin-top: 4.5rem;
+  font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 5rem;
+  }
+
+  .user_menu {
+    margin-right: 1rem;
+  }
+
+  .main_content {
+    padding-top: 4.8rem;
+  }
+
+  .image {
+    width: 45.75rem;
+    height: 45.75rem;
+    top: 14rem;
+    right: -18.75rem;
+  }
+
+  .square {
+    width: 4.5rem;
+    height: 4.5rem;
+    left: -32px;
+  }
+
+  .p2 {
+    padding-top: 5.5rem;
+  }
+
+  input {
+    width: 7.5rem;
+  }
+
+  footer {
+    margin-top: 3.5rem;
+  }
+}
+
+@media (max-width: 426px) {
+  header {
+    flex-direction: column;
+  }
+
+  header nav {
+    flex-direction: column;
+  }
+
+  .user_menu {
+    margin-right: 0;
+  }
+
+  .image {
+    display: none;
+  }
+
+  .main_content {
+    max-width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+
+  .main_content h1 {
+    font-size: 2rem;
+  }
+
+  .square {
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+
+  form {
+    flex-direction: column;
+    height: auto;
+    padding: 2rem;
+  }
+
+  form div {
+    margin-bottom: 2rem;
+  }
+
+  input {
+    width: 12rem;
+  }
+}
